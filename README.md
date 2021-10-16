@@ -1,4 +1,4 @@
-# ROS2 Slam Toolbox in Docker [![](https://img.shields.io/docker/pulls/frankjoshua/ros2-slam-toolbox)](https://hub.docker.com/r/frankjoshua/ros2-slam-toolbox) [![CI](https://github.com/frankjoshua/docker-ros2-slam-toolbox/workflows/CI/badge.svg)](https://github.com/frankjoshua/docker-ros2-slam-toolbox/actions)
+# ROS2 Slam Toolbox in Docker [![](https://img.shields.io/docker/pulls/frankjoshua/ros2-slamtoolbox)](https://hub.docker.com/r/frankjoshua/ros2-slamtoolbox) [![CI](https://github.com/frankjoshua/docker-ros2-slamtoolbox/workflows/CI/badge.svg)](https://github.com/frankjoshua/docker-ros2-slamtoolbox/actions)
 
 ## Description
 
@@ -9,7 +9,7 @@ Runs ros2 slam toolbox in a Docker container. Probably need --network="host" bec
 ```
 docker run -it \
     --network="host" \
-    frankjoshua/ros2-slam-toolbox
+    frankjoshua/ros2-slamtoolbox
 ```
 
 ## Building
@@ -19,7 +19,7 @@ Use [build.sh](build.sh) to build the docker containers.
 <br>Local builds are as follows:
 
 ```
-./build.sh -t frankjoshua/ros2-slam-toolbox -l
+./build.sh -t frankjoshua/ros2-slamtoolbox -l
 ```
 
 ## Template
