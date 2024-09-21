@@ -9,6 +9,8 @@ Runs ros2 slam toolbox in a Docker container. Probably need --network="host" bec
 ```
 docker run -it \
     --network="host" \
+    --ipc=host \
+    --pid=host \
     frankjoshua/ros2-slamtoolbox
 ```
 
