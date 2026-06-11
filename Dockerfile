@@ -1,4 +1,4 @@
-FROM frankjoshua/ros2 
+FROM frankjoshua/ros2:humble
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
